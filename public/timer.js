@@ -36,7 +36,7 @@ function start() {
 function tick() {
     examTime -= 1
     questionTime -= 1
-    timeLeft.innerHTML = `FINISH TIME IN: ${(questionTime < 0) ? '-' : ''}${secondsToMS(examTime)}`
+    timeLeft.innerHTML = `FINISH TIME IN: ${(examTime < 0) ? '-' : ''}${secondsToMS(examTime)}`
     timer.innerHTML = `TIME LEFT FOR QUESTION ${questionNo}: <b>${(questionTime < 0) ? '-' : ''}${secondsToMS(questionTime)}</b>`
 }
 
