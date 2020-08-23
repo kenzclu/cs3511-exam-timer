@@ -17,4 +17,4 @@ npm run dev
 ```
 > The port defaults to 3000
 >
-> The displayed location will look something like https://localhost:3000
+> The displayed location will look something like http://localhost:3000
