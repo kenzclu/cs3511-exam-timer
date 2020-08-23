@@ -1,0 +1,29 @@
+#container {
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#next {
+    margin: auto
+}
+
+#time-left {
+    font-size: xx-large;
+    height: 40%;
+    flex-basis: 100%;
+}
+
+#timer {
+    font-size: large;
+    height: 30%;
+    flex-basis: 100%;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: bold;
+}
